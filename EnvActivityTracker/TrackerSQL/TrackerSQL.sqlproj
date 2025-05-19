@@ -57,10 +57,13 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="EnvTracker.sql" />
     <Build Include="Tables\Environments.sql" />
+    <Build Include="Stored Procedures\spEnvironment_Insert.sql" />
+    <Build Include="Stored Procedures\spEnvironment_CheckCode.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TrackerSQL.refactorlog" />

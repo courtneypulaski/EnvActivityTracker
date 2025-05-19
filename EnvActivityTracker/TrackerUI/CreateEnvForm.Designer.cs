@@ -95,6 +95,7 @@
             createEnvButton.TabIndex = 6;
             createEnvButton.Text = "Create Environment";
             createEnvButton.UseVisualStyleBackColor = true;
+            createEnvButton.Click += createEnvButton_Click;
             // 
             // label1
             // 
@@ -121,7 +122,7 @@
             Controls.Add(envNameLabel);
             Controls.Add(envCodeLabel);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "CreateEnvForm";
             Text = "Create Environment";
             ResumeLayout(false);
